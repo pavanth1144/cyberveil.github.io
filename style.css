@@ -11,7 +11,12 @@
     color:#333;
     overflow-x:hidden;
   }
-
+   .blink {
+    animation: 1s blinker linear infinite;
+    -webkit-animation: 1s blinker linear infinite;
+    -moz-animation: 1s blinker linear infinite;
+    color: red;
+ } 
   .v-header{
     height:100vh;
     display:flex;
@@ -88,10 +93,5 @@
       padding-right:3rem;
       padding-left:3rem;
     }
-      .blink {
-    animation: 1s blinker linear infinite;
-    -webkit-animation: 1s blinker linear infinite;
-    -moz-animation: 1s blinker linear infinite;
-    color: red;
-    }
+    
   }
